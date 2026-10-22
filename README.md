@@ -39,10 +39,10 @@ flowchart LR
 
 ## 运行
 
-### 当前 Windows 本地环境
+### Windows 启动
 
 ```powershell
-cd E:\std\deerflow
+cd deerflow-research-workbench
 .\start.cmd
 ```
 
@@ -50,7 +50,7 @@ cd E:\std\deerflow
 
 工作台入口：`http://localhost:2026/workspace/extensions/local.research-workbench/workspace`，也可从侧边栏“竞品调研”进入。
 
-详细环境说明见 [Windows 本地运行](README.local.zh-CN.md)。本地脚本使用已安装的便携运行时；首次克隆的其他机器按下方步骤安装。
+详细环境说明见 [Windows 本地运行](README.local.zh-CN.md)。启动脚本根据所在目录定位项目，并从便携工具目录或 PATH 查找运行时；首次克隆按下方步骤安装依赖。
 
 ### 新环境部署
 

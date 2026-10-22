@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/bytedance/deer-flow",
+  "source_commit": "de7307e6b3c8a4f8c8414c84c21bce34ee363da1",
+  "source_commit_time": "2026-10-21T02:19:35Z",
+  "source_archive": "https://codeload.github.com/bytedance/deer-flow/tar.gz/de7307e6b3c8a4f8c8414c84c21bce34ee363da1",
+  "application_manifest_version": "2.2.0-dev",
+  "source_acquisition": "pinned upstream archive; local Git repository initialized without upstream commit history",
+  "source_archive_sha256": "301bc0b144da6d4382407b34517904863ec315133ab726a548241d29d28e3228",
+  "platform": "Windows x64",
+  "python": "3.12.14",
+  "node": "24.19.0",
+  "pnpm": "10.26.2",
+  "uv": "0.13.4",
+  "nginx": "1.31.7",
+  "git": "2.56.0.windows.2 (portable)",
+  "model": "qwen-plus",
+  "database": "sqlite",
+  "backend_dependencies": "uv.lock exported with hashes; pip installation with --no-deps --require-hashes preserves uv dependency overrides",
+  "frontend_dependencies": "pnpm install --frozen-lockfile"
+}
